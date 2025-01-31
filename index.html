@@ -18,26 +18,28 @@
                 font-style: normal;
             }
         </style>
+        <script src="tailwind.config.js"></script>
     </head>
-    <header class="sora-font">
+    <header class="sora-font bg-[#FFF9F4] ">
         <!-- Navbar -->
-        <nav class="bg-[#FFF9F4] ">
-            <div class="flex justify-between mx-24">
-                <div class="flex my-6">
-                    <img src="./c1-assets/logo-header.png">
-                    <a class="text-2xl pt-2 pl-3">Browse<span class="">4</span>Pets</a>
+        <nav class="w-auto h-16 lg:w-auto lg:h-24 lg:mx-36 ">
+            <div class="flex justify-between ">
+                <div class="flex lg:py-6">
+                    <img class="w-12 h-12 pl-3 " src="./c1-assets/logo-header.png">
+                    <a class="text-2xl p-4 font-normal invisible lg:visible">Browse<span class="text-yellow-300">4</span>Pets</a>
                 </div>
-                <div class="flex-row">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Find a pet</a></li>
-                        <li><a>Breeds</a></li>
-                        <li><a>Contact us</a></li>
+                <div class="flex-row ">
+                    <ul class="menu menu-horizontal px-8 py-9 invisible lg:visible">
+                        <li><a class="text-xl font-normal">Find a pet</a></li>
+                        <li><a class="text-xl font-normal">Breeds</a></li>
+                        <li><a class="text-xl font-normal">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="flex-row w-22 h-2 ">
-                    <i class="fa-light fa-bell"></i>
-                    <a class="btn">Login</a>
-                    <a class="btn">Register</a>
+                <div class="flex-row menu menu-horizontal py-8 invisible lg:visible">
+                    <img class="w-6 h-6 my-2 mx-2" src="./c1-assets/bell (1) 1.png">
+                    <img class="w-6 h-6 my-2 mx-2"  src="./c1-assets/search (2) 1.png">
+                    <a class="btn mx-2 border-2 text-black border-yellow-300">Login</a>
+                    <a class="btn mx-2 text-black bg-yellow-300 ">Register</a>
                 </div>
             </div>
         </nav>
